@@ -1,2 +1,2 @@
-# Document_scanner_cpp
+# Document scanner cpp
 Document Scanner em c++ utilizado opencv
