@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.12)
+project( documentscanner.out )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+file(GLOB DOCUMENT_SRC CONFIGURE_DEPENDS src/*.cpp)
+add_executable( documentscanner.out ${DisplayImage_SRC} )
+target_link_libraries( documentscanner.out ${OpenCV_LIBS} )
